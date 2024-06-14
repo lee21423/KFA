@@ -1,0 +1,266 @@
+.header {
+    background: #e21919;
+}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header .gnb>ul>li>a {
+    color: #f9f9f9;
+    font-weight: 700;
+}
+
+
+header .util-area {
+    display: flex;
+    gap: 20px;
+}
+
+.main_visual {
+    padding: 0;
+}
+
+.main_visual .main_visual_slide .itm {
+    height: 800px;
+}
+
+.main_visual .main_visual_slide .itm01 {
+    background: url(../images/main_visual01.jpg) center top/cover;
+}
+
+.main_visual .main_visual_slide .itm02 {
+    background: url(../images/main_visual02.jpg) center top/cover;
+}
+
+.main_visual .main_visual_slide .itm03 {
+    background: url(../images/main_visual03.jpg) center top/cover;
+}
+
+.main_visual .main_visual_slide .itm04 {
+    background: url(../images/main_visual04.jpg) center top/cover;
+}
+
+
+.main_visual .main_visual_slide .slick-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main_visual .main_visual_slide .slick-dots li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.main_visual .main_visual_slide .slick-dots li button {
+    border: none;
+    width: 20px;
+    height: 20px;
+    background: #ffffff97;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.main_visual .main_visual_slide .slick-dots li.slick-active button {
+    background: #fc440756;
+}
+
+.sub_menu {
+    padding: 30px 0;
+    background-color: #00145A;
+}
+
+.sub_menu .inner {
+    display: flex;
+    align-items: center;
+}
+
+.sub_menu .inner h2 {
+    margin: auto 80px auto 380px;
+    background-repeat: no-repeat;
+    background-size: 98px 19px;
+    background-position: 50% 50%;
+}
+
+.sub_menu .gnb02>ul {
+    display: flex;
+    gap: 60px;
+}
+
+.sub_menu .gnb02>ul>li>a {
+    font-size: 16px;
+    color: #f9f9f9;
+    font-weight: 500;
+}
+
+.son {
+    padding: 80px;
+    background: #f6f5f5;
+}
+
+.son .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+}
+
+.son .tit h2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.son .tit h2::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #848484a9;
+
+    flex: 1;
+}
+
+.son .tit h2::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #848484a9;
+
+    flex: 1;
+}
+
+.son .inner {
+    display: flex;
+    gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.son .inner>* {}
+
+.son .inner .itm {
+    display: table;
+    background: #ffffff;
+}
+
+.son .inner .itm strong {
+    display: flex;
+    margin: 16px 0 8px 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 14px;
+    color: #e21919;
+}
+
+.son .inner .itm p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+    padding: 0 14px;
+}
+
+.shop {
+    padding: 80px 0;
+    position: relative;
+}
+
+.shop .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+
+    text-align: center;
+}
+
+.shop .tit h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.shop .tit strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.shop .inner {
+    display: flex;
+    gap: 30px;
+    width: 1410px;
+    margin: 0 auto;
+}
+
+.shop .inner strong {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shop .inner p {
+    text-align: center;
+    margin: 16px 0;
+    font-weight: 500;
+}
+
+.shop .inner figure {
+    width: 1170px;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    background: #222;
+    text-align: center;
+}
+
+.footer .foo {
+    border-bottom: 1px solid #ddd;
+}
+
+.footer .inner {
+    display: flex;
+    gap: 30px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.footer .foo .desc {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 120px;
+}
+
+.footer .foo .desc li~li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -15px;
+
+    transform: translate(0, -50%);
+    width: 2px;
+    height: 8px;
+    background: #ddd;
+}
+
+.footer .foo .desc li a {
+    display: block;
+    font-size: 16px;
+    color: #f9f9f9;
+}
